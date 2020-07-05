@@ -7,4 +7,4 @@
 ; ===========================================================================
 
 ;set to 1 for sonic1 spike behavior, 2 for anything else
-Spike_Behavior=1
+Spike_Behavior = 1

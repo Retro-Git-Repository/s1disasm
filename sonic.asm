@@ -16,7 +16,6 @@ zeroOffsetOptimization = 0
 	include	"Constants.asm"
 	include	"Variables.asm"
 	include	"Macros.asm"
-	include "Kraminator.s"
 
 EnableSRAM	  = 0	; change to 1 to enable SRAM
 BackupSRAM	  = 1
@@ -32,6 +31,8 @@ ZoneCount	  = 6	; discrete zones are: GHZ, MZ, SYZ, LZ, SLZ, and SBZ
 OptimiseSound	  = 0	; change to 1 to optimise sound queuing
 
 DebugPathSwappers: = 1
+
+	include "Kraminator.s"
 
 ; ===========================================================================
 
